@@ -8,7 +8,7 @@ using namespace std;
 // cout << "Size of long: " << sizeof(long);
 // }
 
-
+/*komen
 int main() {
 int z = 1;
 cout << "Sebelum increment " << z << endl;
@@ -18,6 +18,6 @@ cout << "Increment di belakang " << z++ << ", belum bertambah" <<
 endl;
 cout << "Hasil akhir " << z << endl;
 return 0;
-}
+}*/
 
 

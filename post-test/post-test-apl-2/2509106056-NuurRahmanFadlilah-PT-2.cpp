@@ -105,6 +105,12 @@ int main(){
 
         else if(pilihan == 3){
             int update_;
+            cout << "\nKATALOG MESIN\n";
+            cout << left << setw(5)  << "No" << setw(25) << "Nama Mesin" << setw(15) << "Harga/Jam" << setw(10) << "Jumlah" << setw(18) << "Perusahaan" << setw(10) << "Tahun" << endl;
+            for(int i = 0; i < jumlahMesin; i++){
+                cout << left << setw(5)  << i+1 << setw(25) << dataMesin[i].nama_mesin << setw(15) << dataMesin[i].harga_perjam << setw(10) << dataMesin[i].ketersediaan_jumlah << setw(18) << dataMesin[i].Produsen_.perusahaan << setw(10) << dataMesin[i].Produsen_.tahun_pembuatan << endl;
+            }
+            cout << endl;
             cout << "\nMasukkan nomor mesin yang ingin diganti jumlahnya : ";
             cin >> update_;
             update_--;
@@ -120,6 +126,12 @@ int main(){
 
         else if(pilihan == 4){
             int delete_;
+            cout << "\nKATALOG MESIN\n";
+            cout << left << setw(5)  << "No" << setw(25) << "Nama Mesin" << setw(15) << "Harga/Jam" << setw(10) << "Jumlah" << setw(18) << "Perusahaan" << setw(10) << "Tahun" << endl;
+            for(int i = 0; i < jumlahMesin; i++){
+                cout << left << setw(5)  << i+1 << setw(25) << dataMesin[i].nama_mesin << setw(15) << dataMesin[i].harga_perjam << setw(10) << dataMesin[i].ketersediaan_jumlah << setw(18) << dataMesin[i].Produsen_.perusahaan << setw(10) << dataMesin[i].Produsen_.tahun_pembuatan << endl;
+            }
+            cout << endl;
             cout << "\nMasukkan nomor mesin yang ingin dihapus : ";
             cin >> delete_;
             delete_--;

@@ -156,7 +156,7 @@ int main(){
     cout<<"LOGIN SISTEM\n";
     cout<<"============\n";
     if(!prosesLogin(ptrUser)){
-        cout<<"Gagal login 3 kali. Program berhenti.\n";
+        cout<<"Gagal login sebanyak 3 kali, program berhenti\n";
         return 0;
     }
 

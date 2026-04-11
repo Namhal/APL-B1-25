@@ -258,8 +258,8 @@ int main(){
                 cout << "invalid\n"; continue;
             }
             cout << "";
-            tampilkanKatalog(ptrMesin, &jumlahMesin, "HASIL SORTING");}
             cout << "Data berhasil diurutkan\n";
+            tampilkanKatalog(ptrMesin, &jumlahMesin, "HASIL SORTING");}
     } while (pilihanMenu != 7);
     cout<<"Program selesai\n";
     return 0;

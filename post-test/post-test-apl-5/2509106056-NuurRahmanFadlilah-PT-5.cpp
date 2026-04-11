@@ -254,9 +254,12 @@ int main(){
             if (subPilihan == 1) bubbleNama(dataMesin, jumlahMesin);
             else if (subPilihan == 2) mergeHarga(dataMesin, 0, jumlahMesin - 1);
             else if (subPilihan == 3) quickTahun(dataMesin, 0, jumlahMesin - 1);
+            else{
+                cout << "invalid\n"; continue;
+            }
+            cout << "";
+            tampilkanKatalog(ptrMesin, &jumlahMesin, "HASIL SORTING");}
             cout << "Data berhasil diurutkan\n";
-            tampilkanKatalog(ptrMesin, &jumlahMesin, "HASIL ING");
-        }
     } while (pilihanMenu != 7);
     cout<<"Program selesai\n";
     return 0;

@@ -222,7 +222,7 @@ int main(){
     cout<<"LOGIN SISTEM\n";
     cout<<"============\n";
     if(!prosesLogin(ptrUser)){
-        cout<<"Gagal login sebanyak 3 kali, program berhenti\n";
+        cout<<"Program berhenti karna lebih dari batas percobaan\n";
         return 0;
     }
 
